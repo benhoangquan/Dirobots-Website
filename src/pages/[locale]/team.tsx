@@ -48,15 +48,14 @@ const TeamPage: React.FC = () => {
     <>
       <Head>
         <title>{t("title")} | Dirobots</title>
-        <meta
-          name="description"
-          content="Meet the team behind Dirobots"
-        />
+        <meta name="description" content="Meet the team behind Dirobots" />
       </Head>
 
       <main className="min-h-screen bg-cream pt-24">
         <div className="container mx-auto px-6 max-w-4xl py-16">
-          <h1 className="text-5xl font-bold mb-4 text-seth-coral">{t("title")}</h1>
+          <h1 className="text-5xl font-bold mb-4 text-seth-coral">
+            {t("title")}
+          </h1>
           <p className="text-xl text-seth-coral/80 mb-12">{t("subtitle")}</p>
 
           <ul className="space-y-6">
@@ -69,7 +68,9 @@ const TeamPage: React.FC = () => {
                 <div className="flex-1">
                   <div className="flex items-center gap-3 flex-wrap">
                     <span className="text-xl font-semibold">{member.name}</span>
-                    <span className="text-lg text-seth-coral/70">— {t(member.roleKey)}</span>
+                    <span className="text-lg text-seth-coral/70">
+                      — {t(member.roleKey)}
+                    </span>
                     <a
                       href={member.linkedin}
                       target="_blank"
@@ -86,8 +87,12 @@ const TeamPage: React.FC = () => {
           </ul>
 
           {/* Advisors Section */}
-          <h2 className="text-3xl font-bold mt-16 mb-4 text-seth-coral">{t("advisorsTitle")}</h2>
-          <p className="text-lg text-seth-coral/80 mb-8">{t("advisorsSubtitle")}</p>
+          <h2 className="text-3xl font-bold mt-16 mb-4 text-seth-coral">
+            {t("advisorsTitle")}
+          </h2>
+          <p className="text-lg text-seth-coral/80 mb-8">
+            {t("advisorsSubtitle")}
+          </p>
 
           <ul className="space-y-6">
             {advisors.map((advisor) => (
@@ -98,7 +103,9 @@ const TeamPage: React.FC = () => {
                 <span className="text-2xl">•</span>
                 <div className="flex-1">
                   <div className="flex items-center gap-3 flex-wrap">
-                    <span className="text-xl font-semibold">{advisor.name}</span>
+                    <span className="text-xl font-semibold">
+                      {advisor.name}
+                    </span>
                     <a
                       href={advisor.linkedin}
                       target="_blank"

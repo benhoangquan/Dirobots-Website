@@ -17,7 +17,8 @@ const projects = [
   {
     id: 2,
     title: "MuJoCo Pick-and-Place",
-    description: "Reinforcement learning for robotic manipulation in simulation.",
+    description:
+      "Reinforcement learning for robotic manipulation in simulation.",
     tags: ["RL", "MuJoCo", "Python"],
     link: "https://github.com/dirobots",
   },

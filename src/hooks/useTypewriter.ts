@@ -32,7 +32,6 @@ export const useTypeWriter = (
 
   return { displayText, hasTyped };
 };
-
 export const useTypeWriterList = (
   texts: string[],
   speed: number,
@@ -95,3 +94,4 @@ export const useTypeWriterList = (
 
   return { displayText };
 };
+

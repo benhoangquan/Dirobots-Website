@@ -27,7 +27,10 @@ const MobileMenu: React.FC<Props> = ({ isOpen, onClose }) => {
 
   const socialLinks = [
     { href: "mailto:dirobots@umontreal.ca", label: tSocial("email") },
-    { href: "https://instagram.com/dirobots_udem", label: tSocial("instagram") },
+    {
+      href: "https://instagram.com/dirobots_udem",
+      label: tSocial("instagram"),
+    },
     { href: "https://discord.gg/2Ttnw8p2Hy", label: tSocial("discord") },
     {
       href: "https://linkedin.com/company/dirobots",
@@ -37,8 +40,9 @@ const MobileMenu: React.FC<Props> = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed inset-0 bg-seth-coral z-50 flex items-center justify-center transition-opacity duration-300 ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
+      className={`fixed inset-0 bg-seth-coral z-50 flex items-center justify-center transition-opacity duration-300 ${
+        isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+      }`}
       role="dialog"
       aria-modal="true"
       aria-hidden={!isOpen}
