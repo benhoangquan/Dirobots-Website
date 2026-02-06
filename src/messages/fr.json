@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "team": "Rencontrer l'équipe",
+    "projects": "Projets",
+    "about": "À propos"
+  },
+  "hero": {
+    "greeting": "Club de Robotique de",
+    "location": "@ Université de Montréal"
+  },
+  "contact": {
+    "email": "dirobots@umontreal.ca",
+    "copyright": "© Dirobots"
+  },
+  "members": {
+    "title": "Notre Équipe",
+    "subtitle": "Rencontrez les personnes derrière Dirobots",
+    "president": "Président",
+    "vicePresident": "Vice-Président",
+    "vpLogistics": "VP - Logistique",
+    "vpExternalComms": "VP - Communications Externes",
+    "vpResearch": "VP - Recherche et Développement",
+    "advisorsTitle": "Conseillers",
+    "advisorsSubtitle": "Orientation et mentorat"
+  },
+  "social": {
+    "email": "COURRIEL",
+    "instagram": "IG",
+    "discord": "DISCORD",
+    "linkedin": "LINKEDIN"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "backToHome": "Retour à l'accueil"
+  },
+  "projects": {
+    "title": "Projets",
+    "comingSoon": "Projets de robotique à venir bientôt..."
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description1": "Nous sommes Dirobots, une communauté dédiée à l'exploration de la robotique, la mécatronique et les systèmes autonomes intelligents.",
+    "description2": "Suivez nos dernières mises à jour :",
+    "linkedin": "Visitez notre page LinkedIn",
+    "instagram": "Suivez-nous sur Instagram",
+    "discord": "Rejoignez notre serveur Discord",
+    "contactTitle": "Nous contacter",
+    "contactMessage": "Pour toute demande, collaboration ou question concernant le club, n'hésitez pas à nous contacter :"
+  },
+  "events": {
+    "title": "Événements à venir",
+    "meeting": "Réunion Hebdomadaire (Vendredis 12h45-13h45)",
+    "location": "Consultez Discord",
+    "noEvents": "Aucun événement prévu pour ce jour.",
+    "allEvents": "Tous les événements à venir"
+  }
+}
