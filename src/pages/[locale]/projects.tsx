@@ -3,40 +3,6 @@ import { locales } from "@/i18n/config";
 import { useTranslations } from "next-intl";
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
-
-// Placeholder data - replace with real projects
-const projects = [
-  {
-    id: 1,
-    title: "Autonomous Line Follower",
-    description: "Arduino-based robot that follows lines using IR sensors.",
-    tags: ["Arduino", "Sensors", "C++"],
-    link: "https://github.com/dirobots",
-  },
-  {
-    id: 2,
-    title: "MuJoCo Pick-and-Place",
-    description:
-      "Reinforcement learning for robotic manipulation in simulation.",
-    tags: ["RL", "MuJoCo", "Python"],
-    link: "https://github.com/dirobots",
-  },
-  {
-    id: 3,
-    title: "ROS Navigation Stack",
-    description: "SLAM-based navigation for mobile robots using ROS.",
-    tags: ["ROS", "SLAM", "Navigation"],
-    link: "https://github.com/dirobots",
-  },
-  {
-    id: 4,
-    title: "Computer Vision Object Detection",
-    description: "Real-time object detection for robotics applications.",
-    tags: ["CV", "YOLO", "PyTorch"],
-    link: "https://github.com/dirobots",
-  },
-];
 
 export default function ProjectsPage() {
   const t = useTranslations("projects");

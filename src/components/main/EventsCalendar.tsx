@@ -8,12 +8,8 @@ import { useTranslations } from "next-intl";
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
 
-// Mock Data replaced by internal component logic for translations
-// const events = [];
-
 const EventsCalendar: React.FC = () => {
   const [value, onChange] = useState<Value>(new Date());
-  // const t = useTranslations("events"); // Would ideally use translations
   const t = useTranslations("events");
 
   // Dynamic mock data for Weekly Meetings (Fridays)
@@ -54,7 +50,7 @@ const EventsCalendar: React.FC = () => {
         <h2 className="text-4xl font-bold mb-8">{t("title")}</h2>
 
         <div className="flex flex-col md:flex-row gap-8 items-start">
-          <div className="w-full md:w-1/2 p-4 bg-white rounded-lg shadow-lg">
+          <div className="w-full md:w-1/2 p-4 bg-off-white rounded-lg shadow-md border border-seth-coral/10">
             <Calendar
               onChange={onChange}
               value={value}
