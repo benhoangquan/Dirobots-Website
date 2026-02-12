@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Instagram, Linkedin, MessageSquare } from "lucide-react";
+import { Linkedin, MessageSquare } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 const ContactSection: React.FC = () => {
@@ -14,16 +14,7 @@ const ContactSection: React.FC = () => {
             {/* Social Media Icons */}
             <div className="flex gap-6 mb-12">
               <Link
-                href="https://www.instagram.com/dirobots_udem/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white hover:text-seth-coral/20 transition-colors"
-              >
-                <Instagram size={24} strokeWidth={2} />
-                <span className="sr-only">Instagram</span>
-              </Link>
-              <Link
-                href="https://www.linkedin.com/company/dirobots"
+                href="https://www.linkedin.com/company/107443929/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-seth-coral/20 transition-colors"
@@ -32,7 +23,7 @@ const ContactSection: React.FC = () => {
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="https://discord.gg/2Ttnw8p2Hy"
+                href="https://discord.gg/A5fkbBfa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-seth-coral/20 transition-colors"

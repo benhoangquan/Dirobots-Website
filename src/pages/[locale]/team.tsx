@@ -8,24 +8,19 @@ import { Linkedin } from "lucide-react";
 // Team members data - roleKey references translation keys
 const teamMembers = [
   {
-    name: "Anas Elghoudane",
-    roleKey: "president",
-    linkedin: "https://www.linkedin.com/in/anas-elghoudane-a1240b2b6/",
-  },
-  {
     name: "Quan Tran",
-    roleKey: "vpLogistics",
+    roleKey: "projectCoordinator",
     linkedin: "https://www.linkedin.com/in/benhoangquan/",
   },
   {
-    name: "Emil Rose Levy",
-    roleKey: "vpExternalComms",
-    linkedin: "https://www.linkedin.com/in/emil-rose-levy-519b03242/",
+    name: "Anas Elghoudane",
+    roleKey: "presidentAndML",
+    linkedin: "https://www.linkedin.com/in/anas-elghoudane-a1240b2b6/",
   },
   {
-    name: "Alexandre Tancrède",
-    roleKey: "vpResearch",
-    linkedin: "https://www.linkedin.com/in/alexandre-tancr%C3%A8de/",
+    name: "Josué Mongan",
+    roleKey: "vicePresident",
+    linkedin: "", // TODO: Add LinkedIn URL
   },
 ];
 
@@ -71,15 +66,17 @@ const TeamPage: React.FC = () => {
                     <span className="text-lg text-seth-coral/70">
                       — {t(member.roleKey)}
                     </span>
-                    <a
-                      href={member.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-seth-coral hover:text-seth-coral/70 transition-colors"
-                      aria-label={`${member.name}'s LinkedIn`}
-                    >
-                      <Linkedin size={20} />
-                    </a>
+                    {member.linkedin && (
+                      <a
+                        href={member.linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-seth-coral hover:text-seth-coral/70 transition-colors"
+                        aria-label={`${member.name}'s LinkedIn`}
+                      >
+                        <Linkedin size={20} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </li>

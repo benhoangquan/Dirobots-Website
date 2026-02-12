@@ -18,6 +18,8 @@
     "subtitle": "Rencontrez les personnes derrière Dirobots",
     "president": "Président",
     "vicePresident": "Vice-Président",
+    "projectCoordinator": "Coordonnateur de projet",
+    "presidentAndML": "Président & Responsable ML Appliqué",
     "vpLogistics": "VP - Logistique",
     "vpExternalComms": "VP - Communications Externes",
     "vpResearch": "VP - Recherche et Développement",
@@ -51,7 +53,7 @@
   },
   "events": {
     "title": "Événements à venir",
-    "meeting": "Réunion Hebdomadaire (Vendredis 12h45-13h45)",
+    "meeting": "Réunion Hebdomadaire (Vendredis 14h10-15h10)",
     "location": "Consultez Discord",
     "noEvents": "Aucun événement prévu pour ce jour.",
     "allEvents": "Tous les événements à venir"

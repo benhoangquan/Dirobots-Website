@@ -27,13 +27,9 @@ const MobileMenu: React.FC<Props> = ({ isOpen, onClose }) => {
 
   const socialLinks = [
     { href: "mailto:dirobots@umontreal.ca", label: tSocial("email") },
+    { href: "https://discord.gg/A5fkbBfa", label: tSocial("discord") },
     {
-      href: "https://instagram.com/dirobots_udem",
-      label: tSocial("instagram"),
-    },
-    { href: "https://discord.gg/2Ttnw8p2Hy", label: tSocial("discord") },
-    {
-      href: "https://linkedin.com/company/dirobots",
+      href: "https://www.linkedin.com/company/107443929/",
       label: tSocial("linkedin"),
     },
   ];
