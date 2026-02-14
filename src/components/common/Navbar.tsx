@@ -39,11 +39,36 @@ const Navbar: React.FC = () => {
         </Link>
 
         <div className="hidden md:flex items-center gap-6 absolute left-1/2 transform -translate-x-1/2">
-          <Link href={`/${locale}`} className="text-seth-coral font-medium hover:opacity-80 transition-opacity">{t("home")}</Link>
-          <Link href={`/${locale}/about`} className="text-seth-coral font-medium hover:opacity-80 transition-opacity">{t("about")}</Link>
-          <Link href={`/${locale}/team`} className="text-seth-coral font-medium hover:opacity-80 transition-opacity">{t("team")}</Link>
-          <Link href={`/${locale}/presentations`} className="text-seth-coral font-medium hover:opacity-80 transition-opacity">{t("presentations")}</Link>
-          <Link href={`/${locale}/projects`} className="text-seth-coral font-medium hover:opacity-80 transition-opacity">{t("projects")}</Link>
+          <Link
+            href={`/${locale}`}
+            className="text-seth-coral font-medium hover:opacity-80 transition-opacity"
+          >
+            {t("home")}
+          </Link>
+          <Link
+            href={`/${locale}/about`}
+            className="text-seth-coral font-medium hover:opacity-80 transition-opacity"
+          >
+            {t("about")}
+          </Link>
+          <Link
+            href={`/${locale}/team`}
+            className="text-seth-coral font-medium hover:opacity-80 transition-opacity"
+          >
+            {t("team")}
+          </Link>
+          <Link
+            href={`/${locale}/presentations`}
+            className="text-seth-coral font-medium hover:opacity-80 transition-opacity"
+          >
+            {t("presentations")}
+          </Link>
+          <Link
+            href={`/${locale}/projects`}
+            className="text-seth-coral font-medium hover:opacity-80 transition-opacity"
+          >
+            {t("projects")}
+          </Link>
         </div>
 
         <div className="flex items-center gap-4">
