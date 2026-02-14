@@ -23,6 +23,8 @@
     "vpLogistics": "VP - Logistique",
     "vpExternalComms": "VP - Communications Externes",
     "vpResearch": "VP - Recherche et Développement",
+    "director": "Directeur",
+    "coDirector": "Co-Directeur",
     "advisorsTitle": "Conseillers",
     "advisorsSubtitle": "Orientation et mentorat"
   },
@@ -39,7 +41,12 @@
   },
   "projects": {
     "title": "Projets",
-    "comingSoon": "Projets de robotique à venir bientôt..."
+    "viewProject": "Voir le projet",
+    "vision2grab": {
+      "title": "Vision2Grab",
+      "term": "Hiver 2026",
+      "description": "Projet d'apprentissage par imitation pour la manipulation robotique. L'objectif est d'entraîner des politiques en simulation, puis de les déployer sur un bras robotique réel."
+    }
   },
   "about": {
     "title": "À propos de nous",
@@ -53,7 +60,7 @@
   },
   "events": {
     "title": "Événements à venir",
-    "meeting": "Réunion Hebdomadaire (Vendredis 14h10-15h10)",
+    "meeting": "Réunion Hebdomadaire (Vendredis 14h10-15h20)",
     "location": "Consultez Discord",
     "noEvents": "Aucun événement prévu pour ce jour.",
     "allEvents": "Tous les événements à venir"

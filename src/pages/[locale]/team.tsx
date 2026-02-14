@@ -9,17 +9,17 @@ import { Linkedin } from "lucide-react";
 const teamMembers = [
   {
     name: "Quan Tran",
-    roleKey: "projectCoordinator",
+    roleKey: "coDirector",
     linkedin: "https://www.linkedin.com/in/benhoangquan/",
   },
   {
     name: "Anas Elghoudane",
-    roleKey: "presidentAndML",
+    roleKey: "director",
     linkedin: "https://www.linkedin.com/in/anas-elghoudane-a1240b2b6/",
   },
   {
     name: "Josué Mongan",
-    roleKey: "vicePresident",
+    roleKey: "coDirector",
     linkedin: "", // TODO: Add LinkedIn URL
   },
 ];

@@ -23,6 +23,8 @@
     "vpLogistics": "VP - Logistics",
     "vpExternalComms": "VP - External Communications",
     "vpResearch": "VP - Research & Development",
+    "director": "Director",
+    "coDirector": "Co-Director",
     "advisorsTitle": "Advisors",
     "advisorsSubtitle": "Guidance and mentorship"
   },
@@ -39,7 +41,12 @@
   },
   "projects": {
     "title": "Projects",
-    "comingSoon": "Robotics Projects Coming Soon..."
+    "viewProject": "View Project",
+    "vision2grab": {
+      "title": "Vision2Grab",
+      "term": "Winter 2026",
+      "description": "Imitation learning project for robotic manipulation. The goal is to train policies in simulation, then deploy them on a real robot arm."
+    }
   },
   "about": {
     "title": "About Us",
@@ -53,7 +60,7 @@
   },
   "events": {
     "title": "Upcoming Events",
-    "meeting": "Weekly Meeting (Fridays 14h10-15h10)",
+    "meeting": "Weekly Meeting (Fridays 14h10-15h20)",
     "location": "Check out Discord",
     "noEvents": "No events scheduled for this day.",
     "allEvents": "All Upcoming"
