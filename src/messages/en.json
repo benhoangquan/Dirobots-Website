@@ -48,7 +48,8 @@
       "title": "Vision2Grab",
       "term": "Winter 2026",
       "description": "Imitation learning project for robotic manipulation. The goal is to train policies in simulation, then deploy them on a real robot arm."
-    }
+    },
+    "comingSoon": "Coming Soon"
   },
   "about": {
     "title": "About Us",

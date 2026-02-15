@@ -48,7 +48,8 @@
       "title": "Vision2Grab",
       "term": "Hiver 2026",
       "description": "Projet d'apprentissage par imitation pour la manipulation robotique. L'objectif est d'entraîner des politiques en simulation, puis de les déployer sur un bras robotique réel."
-    }
+    },
+    "comingSoon": "Bientôt disponible"
   },
   "about": {
     "title": "À propos de nous",
