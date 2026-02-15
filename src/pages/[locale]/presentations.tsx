@@ -33,13 +33,7 @@ const PresentationsPage = () => {
           id: "lec1",
           title: "Week 1: Introduction to Robotics",
           date: "2026-01-10",
-          pdfUrl: "/presentations/w26/Lecture1.pdf",
-        },
-        {
-          id: "lec2",
-          title: "Week 2: Advanced Control Systems",
-          date: "2026-01-17",
-          pdfUrl: "/presentations/w26/Lecture2.pdf",
+          pdfUrl: "/presentations/w26/IntroRoboticsEN.pdf",
         },
       ],
     },
@@ -86,11 +80,10 @@ const PresentationsPage = () => {
                     <li key={presentation.id}>
                       <button
                         onClick={() => setSelectedPdf(presentation.pdfUrl)}
-                        className={`w-full text-left p-3 rounded-md transition-colors duration-200 ${
-                          selectedPdf === presentation.pdfUrl
+                        className={`w-full text-left p-3 rounded-md transition-colors duration-200 ${selectedPdf === presentation.pdfUrl
                             ? "bg-seth-coral text-white"
                             : "hover:bg-gray-100 text-gray-700"
-                        }`}
+                          }`}
                       >
                         <div className="font-medium">{presentation.title}</div>
                         <div

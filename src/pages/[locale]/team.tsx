@@ -3,24 +3,45 @@ import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { locales } from "@/i18n/config";
 import { useTranslations } from "next-intl";
-import { Linkedin } from "lucide-react";
+import { Linkedin, Github } from "lucide-react";
 
 // Team members data - roleKey references translation keys
-const teamMembers = [
-  {
-    name: "Quan Tran",
+{
+  name: "Quan Tran",
     roleKey: "coDirector",
-    linkedin: "https://www.linkedin.com/in/benhoangquan/",
+      linkedin: "https://www.linkedin.com/in/benhoangquan/",
+        github: "https://github.com/benhoangquan",
   },
-  {
-    name: "Anas Elghoudane",
+{
+  name: "Anas Elghoudane",
     roleKey: "director",
-    linkedin: "https://www.linkedin.com/in/anas-elghoudane-a1240b2b6/",
+      linkedin: "https://www.linkedin.com/in/anas-elghoudane-a1240b2b6/",
+        github: "https://github.com/Nas01010101",
+  },
+{
+  name: "Josué Mongan",
+    roleKey: "coDirector",
+      linkedin: "https://www.linkedin.com/in/josué-mongan-a7b6242b8/",
+        github: "https://github.com/Josh012006",
+  },
+];
+
+// Core Members data
+const coreMembers = [
+  {
+    name: "Cassandre Hamel",
+    linkedin: "https://www.linkedin.com/in/cassandre-hamel-9848b3190/",
+    github: "https://github.com/Kraft-Cheese",
   },
   {
-    name: "Josué Mongan",
-    roleKey: "coDirector",
-    linkedin: "", // TODO: Add LinkedIn URL
+    name: "Ariel Embeya Shongo",
+    linkedin: "https://www.linkedin.com/in/ariel-embeya-shongo-005b68380/",
+    github: "https://github.com/arielembeya223",
+  },
+  {
+    name: "Pierre Duhoux",
+    linkedin: "https://www.linkedin.com/in/pierre-duhoux/",
+    github: "https://github.com/pierreduh",
   },
 ];
 
@@ -77,6 +98,55 @@ const TeamPage: React.FC = () => {
                         <Linkedin size={20} />
                       </a>
                     )}
+                    {member.github && (
+                      <a
+                        href={member.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-seth-coral hover:text-seth-coral/70 transition-colors"
+                        aria-label={`${member.name}'s GitHub`}
+                      >
+                        <Github size={20} />
+                      </a>
+                    )}
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+
+          {/* Core Members Section */}
+          <h2 className="text-3xl font-bold mt-16 mb-4 text-seth-coral">
+            {t("coreMembersTitle")}
+          </h2>
+          <ul className="space-y-6">
+            {coreMembers.map((member) => (
+              <li
+                key={member.name}
+                className="flex items-start gap-3 text-seth-coral"
+              >
+                <span className="text-2xl">•</span>
+                <div className="flex-1">
+                  <div className="flex items-center gap-3 flex-wrap">
+                    <span className="text-xl font-semibold">{member.name}</span>
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-seth-coral hover:text-seth-coral/70 transition-colors"
+                      aria-label={`${member.name}'s LinkedIn`}
+                    >
+                      <Linkedin size={20} />
+                    </a>
+                    <a
+                      href={member.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-seth-coral hover:text-seth-coral/70 transition-colors"
+                      aria-label={`${member.name}'s GitHub`}
+                    >
+                      <Github size={20} />
+                    </a>
                   </div>
                 </div>
               </li>
