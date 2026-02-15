@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "@/components/main/HeroSection";
 import ContactSection from "@/components/main/ContactSection";
-import ProjectsSection from "@/components/main/ProjectsSection";
+// import ProjectsSection from "@/components/main/ProjectsSection";
 import EventsCalendar from "@/components/main/EventsCalendar";
 
 import { GetStaticProps, GetStaticPaths } from "next";
@@ -12,7 +12,6 @@ export default function Home() {
     <main className="bg-cream">
       <HeroSection />
       <EventsCalendar />
-      <ProjectsSection />
       <ContactSection />
     </main>
   );
