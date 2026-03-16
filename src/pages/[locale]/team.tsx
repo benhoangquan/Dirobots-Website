@@ -56,6 +56,10 @@ const advisors = [
     name: "Jaydan Aladro Hawe",
     linkedin: "https://www.linkedin.com/in/jaydanaladro/",
   },
+  {
+    name: "Mohamed thameur Sassi (Previous Club President)",
+    linkedin: "https://www.linkedin.com/in/mohamed-thameur-sassi/",
+  },
 ];
 
 const TeamPage: React.FC = () => {
